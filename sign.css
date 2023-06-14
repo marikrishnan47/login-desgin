@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+     
+}
+.
+
+.sign-in-form{
+	   
+	padding:20px;
+
+	background-color:#fffcfd;
+    width:100%;
+	
+}
+.form-control:focus {
+    color:none;
+    background-color: #fff;
+    border-color:#000 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+ .rows{
+	
+	 box-shadow: rgba(0, 0, 0, 0.45) 0px 36px 35px -30px;
+ }
+.sign-in-form-1 h1{
+	
+	font-size:30px;
+}
+.sign-in-form-1{
+	   
+	padding:50px;
+	background-color:#ff4261;
+    height:auto;	
+    width:100%;
+	text-align:center;
+}
+.form-control{
+	width:100%!important;
+	border:none !important;
+	border-bottom: 1px solid #ced4da !important;
+	border-radius: 0px  !important;
+	padding:0 !important;
+}
+.but-ty{
+	border-radius:25px !important;
+}
+.over{
+	overflow:hidden;
+	transition:max-height 0.5s;
+}.btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.but-but{
+	border-radius:25px !important;
+	 box-shadow: 5px 5px 12px #ebebeb inset;
+}
+.btn-danger, .btn-danger:focus {
+    color: #fff;
+    background-color: #bb2d3b;
+    border-color: none!important;
+    box-shadow:none!important;
+}
+.header-sec{
+	text-align:center;
+}
+.header-sec h1{
+	color:#000;
+	position:relative;
+	padding:20px 0px;
+}
+.header-sec h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60px;
+    height: 3px;
+    background-color: #e03a3c;
+    transform: translateX(-50%);
+}	
+.apps{
+	padding:10px 0px;
+	margin-top:60px					;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	transition:  0.8s;
+	transform:translateY(-50%);	
+}
+
+
+.apps iconify-icon{
+	font-size:22px;
+	padding:0px 5px;
+	background-color:#fff;
+	color:#000;
+	 box-shadow: 5px 5px 12px #ebebeb inset;
+	width:40px ;
+	height:40px;
+	padding:10px;
+	margin:0px 4px;
+	border-radius:50%;
+
+}
+.apps iconify-icon:hover{
+	color:#ffc107;
+
+}
+.sign-in-form-1 .ico-n{
+	font-size:80px;
+	
+}

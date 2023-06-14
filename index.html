@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>sign-in-form</title> 
+		    <link rel="stylesheet" href="sign.css"/>
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+			
+</head>
+	<body>
+		<section class="main py-5">
+		   
+			<div class="container">
+
+					
+				<div class="row rows ">
+				
+								
+					<div class="sign-in-form col-lg-6 p-5 col-sm-12" >
+					 <div class="header-sec mb-5" >
+						  <h1 id="title" >Sign in</h1>
+					 </div>
+						<div class="mb-3 over " id="nameField">
+					
+						  <input type="text" class="form-control mb-5 " id="exampleFormControlInput1" placeholder="Name..">
+						</div>
+						<div class="mb-3 ">
+						 
+						  <input type="email" class="form-control mb-5" id="exampleFormControlInput1" placeholder="Email...">
+						</div>
+						
+				
+						<div class="mb-3">
+						  
+						  <input type="password" class="form-control mb-4" id="exampleFormControlInput1" placeholder="password">
+						</div>
+					
+						<div class="d-flex align-items-center mt-5 ">
+							<button type="button" class="btn btn-danger px-5 but-ty  " id="sign">Sign up</button>
+							<div class="d-flex align-items-center px-4 ms-5 but-but">
+							<button type="button" class="btn   but-ty-1 " id="sign-in">Sign in </button><iconify-icon icon="ph:sign-out-thin"></iconify-icon>
+							</div>
+						</div>	
+					</div>
+					
+					<div class="sign-in-form-1 col-lg-6 p-5  col-sm-12">
+						<h1 class="pb-4 mt-4">Sign in Design with HTML and CSS</h1>
+						<p>A Sign-On Letter Form allows organizations to provide their name, group and participation information.</p>
+						<div class="apps text-center ">
+									  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
+									  <a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
+									  <a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
+									  <a href="#"><iconify-icon icon="ri:linkedin-box-fill"></iconify-icon></a>
+						</div>
+			       	<iconify-icon inline icon="bi:people-circle" class="ico-n"></iconify-icon>
+					</div>
+				
+				</div>
+				
+				
+			</div>
+		</section>
+		<script>
+		let signup= document.getElementById("sign");
+		let signin= document.getElementById("sign-in");
+		let nameField= document.getElementById("nameField");
+		let title= document.getElementById("title");
+		
+		 
+		 signin.onclick=function(){
+			nameField.style.maxHeight="0";
+			title.innerHTML="sing In";
+			signup.classList.add("disable");
+			signin.classList.remove("disable");
+		 
+		 }
+		  signup.onclick=function(){
+		    
+			nameField.style.maxHeight="60px";
+			title.innerHTML="sing Up";
+			signin.classList.remove("disable");
+			signup.classList.add("disable");
+		 
+		 }
+		</script>
+	
+	</body>
+</html>
+	
